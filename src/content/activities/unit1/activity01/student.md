@@ -16,5 +16,7 @@ El arte generativo se refiere a cualquier práctica artística en la que el arti
 
 ## Cuadro comparativo
 
-![Cuandro Comparativo](../../../../assets/imgTest.png)
+![Cuandro Comparativo](../../../../assets/ccomparativo.png)
 
+## Mi definición de diseño generativo
+En el entretenimiento digital, para el diseño generativo hacemos uso de algoritmos, IA y sistemas automatizados para crear programas dinámicos y que se adapten. Como diseñadores establecemos parametros que le permitan al sistema generar contenido (animaciones, juegos o experiencias) de forma autónoma.En conclusión, el diseño generativo transforma el entretenimiento digital en experiencias más variables y dinámicas con un gran potencial para el futuro de las experiencias inmersivas, las animaciones y los juegos.
