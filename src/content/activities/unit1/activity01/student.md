@@ -16,3 +16,5 @@ El arte generativo se refiere a cualquier práctica artística en la que el arti
 
 ## Cuadro comparativo
 
+![Cuandro Comparativo](../../../../assets/imgTest.png)
+
