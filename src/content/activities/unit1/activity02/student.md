@@ -30,4 +30,5 @@ inferior de la pantalla) salen unas líneas más gruesas ascienden hasta más o 
 **Breve descripción del proyecto**: Por medio de la cámara del computador se retracta la imagen y se muestra por medio de cuadritos blancos y se actualiza la imagen constantemente. 
 
 **Una imagen o captura de pantalla del proyecto**:
+
 ![Cuandro Comparativo](../../../../assets/ejemplo3.png)
