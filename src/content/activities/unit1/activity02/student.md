@@ -10,7 +10,7 @@ inferior de la pantalla) salen unas líneas más gruesas ascienden hasta más o 
 
 ![Cuandro Comparativo](../../../../assets/ejemplo1.png)
 
-De este ejemplo me llamó la atención de cómo el artista combina simulaciones procedurales con elementos visuales. Las simulaciones procedurales son generadas mediante algoritmos
+De este ejemplo me llamó la atención de cómo el artista combina simulaciones procedurales con elementos visuales. Las simulaciones procedurales son generadas mediante algoritmos que siguen reglas matemáticas o lógicas para crear sistemas complejos sin intervención manual. 
 ### EJEMPLO 2
 **Nombre del proyecto/artista**: Thorny branches by Claudio Esperanca
 
@@ -21,6 +21,9 @@ De este ejemplo me llamó la atención de cómo el artista combina simulaciones 
 **Una imagen o captura de pantalla del proyecto**:
 
 ![Cuandro Comparativo](../../../../assets/ejemplo2.png)
+
+De este sistema me gustó que es un tipo de sistema de particulas generativo y según me explicó chat gpt tiene un sistema de control de interfaz a través de OPC. En este caso OPC se usa para agregar controles de interfaz gráfica (botones, toggles, etc), lo que permite modificar parámetros en tiempo real sin cambiar el código manualmente. 
+
 ### EJEMPLO 3
 
 **Nombre del proyecto/artista**: BLACK OUT by Zaron Chen
@@ -32,3 +35,7 @@ De este ejemplo me llamó la atención de cómo el artista combina simulaciones 
 **Una imagen o captura de pantalla del proyecto**:
 
 ![Cuandro Comparativo](../../../../assets/ejemplo3.png)
+
+Lo  más interesante de este código es que usa p5.js junto con p5.flex para crear un lienzo adaptable y aplicar un shader sobre un formato de video en tiempo real. Al incluir p5.flex, puedes hacer que el canvas se comporte como un elemento Flexbox dentro de un contenedor HTML. Esto significa que:
+-  Se ajusta automáticamente al tamaño del contenedor.
+-  No necesitas usar windowResized() para redimensionar el lienzo.
