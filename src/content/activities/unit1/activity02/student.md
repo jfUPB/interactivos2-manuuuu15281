@@ -18,15 +18,16 @@ inferior de la pantalla) salen unas líneas más gruesas ascienden hasta más o 
 
 **Breve descripción del proyecto**: Cuando haces clic y desplazas el cursor se dibujan en la pantalla unos tipos de raices en tonos morados y se sobreponen si pasas el cursor por donde ya hay raices. 
 
-**Una imagen o captura de pantalla del proyecto**
+**Una imagen o captura de pantalla del proyecto**:
 
 ![Cuandro Comparativo](../../../../assets/ejemplo2.png)
 ### EJEMPLO 3
 
-**Nombre del proyecto/artista**
+**Nombre del proyecto/artista**: BLACK OUT by Zaron Chen
 
-**URL o enlace al proyecto**
+**URL o enlace al proyecto** : https://openprocessing.org/sketch/2136720
 
-**Breve descripción del proyecto (máximo 3 líneas)**
+**Breve descripción del proyecto**: Por medio de la cámara del computador se retracta la imagen y se muestra por medio de cuadritos blancos y se actualiza la imagen constantemente. 
 
-**Una imagen o captura de pantalla del proyecto**
+**Una imagen o captura de pantalla del proyecto**:
+![Cuandro Comparativo](../../../../assets/ejemplo3.png)
