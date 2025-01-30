@@ -10,7 +10,7 @@ inferior de la pantalla) salen unas líneas más gruesas ascienden hasta más o 
 
 ![Cuandro Comparativo](../../../../assets/ejemplo1.png)
 
-
+De este ejemplo me llamó la atención de cómo el artista combina simulaciones procedurales con elementos visuales. Las simulaciones procedurales son generadas mediante algoritmos
 ### EJEMPLO 2
 **Nombre del proyecto/artista**: Thorny branches by Claudio Esperanca
 
