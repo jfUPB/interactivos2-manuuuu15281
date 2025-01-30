@@ -8,7 +8,7 @@ inferior de la pantalla) salen unas líneas más gruesas ascienden hasta más o 
 
 **Una imagen o captura de pantalla del proyecto**:
 
-
+### EJEMPLO 2
 **Nombre del proyecto/artista**: Thorny branches by Claudio Esperanca
 
 **URL o enlace al proyecto**: https://openprocessing.org/sketch/2398334
@@ -17,6 +17,7 @@ inferior de la pantalla) salen unas líneas más gruesas ascienden hasta más o 
 
 **Una imagen o captura de pantalla del proyecto**
 
+### EJEMPLO 3
 
 **Nombre del proyecto/artista**
 
