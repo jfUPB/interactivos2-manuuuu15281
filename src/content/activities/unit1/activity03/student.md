@@ -13,4 +13,7 @@ Zaron Chen es un programador Creativo, artista generativo y desarrollador Front-
 Para esta obra el artista usó una ecuación matemática de reacción difusión (Es una ecuación que describe la dinámica acoplada de concentraciones químicas o poblaciones en interacción) que es la que le da la forma al sistema. También tiene la
 implementación del mouse (para generar la interación con la forma del sistema)y de la barra de espacio (modifica uno de los parámetros).
 
-#### Obra 2
+![Cuandro Comparativo](../../../../assets/ejemplo4.png)
+
+#### Obra 2 - Hilbert
+El artista basó el arte de este sistema en algo llamado la curva de Hilbert,  
