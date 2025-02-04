@@ -8,7 +8,7 @@ Una serie de trabajos en los que Reas traduce procesos de software en arte visua
 #### Influencias
 El trabajo de Casey Reas está influenciado por el arte generativo y los sistemas algorítmicos, siguiendo la línea de artistas conceptuales como Sol LeWitt, que crean obras a partir de instrucciones. Su obra refleja también elementos del Op Art y el arte cinético, con patrones dinámicos y juegos de percepción visual inspirados en Victor Vasarely y Bridget Riley.
 
-imagen de una de las obra "Process Compendium "
+imagen de una de las obras:  "Process Compendium "
 
 ![Cuandro Comparativo](../../../../assets/ejemplo5.png)
 ### Zaron Chen
