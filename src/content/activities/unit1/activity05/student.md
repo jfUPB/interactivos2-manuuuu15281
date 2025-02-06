@@ -17,6 +17,10 @@ En la imagen se pueden observar ambos parámetros modificados:
 
 ![Cuandro Comparativo](../../../../assets/ejemplo12.png)
 
+**Aplicaciones al entretenimiento digital**
+
+Los patrones generados pueden servir como fondos reactivos en juegos de estilo retro o abstracto, adaptándose a las acciones del jugador.
+
 #### EJEMPLO 2 - P_2_1_4_01 de generative-design
 
 ![Cuandro Comparativo](../../../../assets/ejemplo13.png)
@@ -45,6 +49,10 @@ Este código en p5.js crea una representación gráfica de una imagen usando una
 2. La segunda variación que intenté hacer fue el tamaño de la casilla para que se viera más grande la figura. Entonces lo que hice fue añadir los parámetros de ancho, largo y margen de las casillas a la función setup() para poder modificar su tamaña según los pixeles.
 
 ![Cuandro Comparativo](../../../../assets/ejemplo15.png)
+
+**Aplicaciones al entretenimiento digital**
+
+Podriamos implementar un creador de Pixel Art Interactivo donde los usuarios cargan sus propias imágenes y las convierten en un mosaico de casillas, que pueden personalizar ajustando el tamaño y el umbral para crear arte pixelado en tiempo real.
 
 #### EJEMPLO 3 - P_2_3_3_01 de generative-design
 ![Cuandro Comparativo](../../../../assets/ejemplo16.png)
@@ -143,7 +151,96 @@ function changeColor() {
   letterColor = color(random(255), random(255), random(255));
 }
 ```
-2. El segundo cambio que hice fue muy similar al primero: quise que cada
+2. El segundo cambio que hice fue muy similar al primero: quise que cada que hiciera clic no solo cambiara aleatoriamente el color sino también la frase que se mostraba. Para esto creé un arreglo con las frases que quieres mostrar, Cada vez que hacen clic (mousePressed()), esta función elige una frase al azar de la lista y genera un color aleatorio y ahora el dibujo se basa en la frase seleccionada aleatoriamente (currentPhrase) en lugar de un texto fijo.
 
+![Cuandro Comparativo](../../../../assets/ejemplo18.png)
 
+**Código modificado**
 
+```
+'use strict';
+
+var x = 0;
+var y = 0;
+var stepSize = 5.0;
+
+var font = 'Georgia';
+var phrases = [
+  "Juan Franco",
+  "Luciana Gutierrez",
+  "Manuela Buriticá",
+  "Sebastian Torres",
+  "Juan Esteban"
+];
+var currentPhrase = phrases[0]; // Frase actual
+var fontSizeMin = 3;
+var angleDistortion = 0.0;
+
+var counter = 0;
+var letterColor;
+
+function setup() {
+  createCanvas(displayWidth, displayHeight);
+  background(255);
+  cursor(CROSS);
+
+  x = mouseX;
+  y = mouseY;
+
+  textFont(font);
+  textAlign(LEFT);
+  changePhraseAndColor(); // Inicializa la primera frase y color aleatorio
+}
+
+function draw() {
+  if (mouseIsPressed && mouseButton == LEFT) {
+    var d = dist(x, y, mouseX, mouseY);
+    textSize(fontSizeMin + d / 2);
+    var newLetter = currentPhrase.charAt(counter);
+    stepSize = textWidth(newLetter);
+
+    if (d > stepSize) {
+      var angle = atan2(mouseY - y, mouseX - x);
+
+      push();
+      translate(x, y);
+      rotate(angle + random(angleDistortion));
+      fill(letterColor);
+      text(newLetter, 0, 0);
+      pop();
+
+      counter++;
+      if (counter >= currentPhrase.length) counter = 0;
+
+      x = x + cos(angle) * stepSize;
+      y = y + sin(angle) * stepSize;
+    }
+  }
+}
+
+function mousePressed() {
+  x = mouseX;
+  y = mouseY;
+  changePhraseAndColor(); // Cambia la frase y el color en cada clic
+}
+
+function keyReleased() {
+  if (key == 's' || key == 'S') saveCanvas('drawing', 'png');
+  if (keyCode == DELETE || keyCode == BACKSPACE) background(255);
+}
+
+function keyPressed() {
+  if (keyCode == UP_ARROW) angleDistortion += 0.1;
+  if (keyCode == DOWN_ARROW) angleDistortion -= 0.1;
+}
+
+// Cambia la frase y el color aleatoriamente
+function changePhraseAndColor() {
+  currentPhrase = random(phrases); // Elige una frase al azar de la lista
+  letterColor = color(random(255), random(255), random(255)); // Genera un color aleatorio
+}
+```
+
+**Aplicaciones al entretenimiento digital**
+
+Convertir esto en un mini-juego educativo para niños, donde aprenden a escribir nombres o frases mientras el juego responde con colores, rotaciones y tamaños dinámicos, motivando la creatividad.
