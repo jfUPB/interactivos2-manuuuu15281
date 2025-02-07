@@ -39,7 +39,7 @@
 
 **Ejemplo de uso:**
 
-![Cuandro Comparativo](../../../../assets/ejemplo21.jpg)
+![Cuandro Comparativo](../../../../assets/ejemplo21.webp)
 
 ![Cuandro Comparativo](../../../../assets/ejemplo22.jpg)
 
