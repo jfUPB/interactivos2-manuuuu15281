@@ -12,9 +12,9 @@
 
 **Ejemplo de uso:**
 
-![Cuandro Comparativo](../../../../assets/ejemplo19.png)
+![Cuandro Comparativo](../../../../assets/ejemplo19.jpg)
 
-![Cuandro Comparativo](../../../../assets/ejemplo20.png)
+![Cuandro Comparativo](../../../../assets/ejemplo20.jpg)
 
 **Potencial**
 
@@ -39,9 +39,9 @@
 
 **Ejemplo de uso:**
 
-![Cuandro Comparativo](../../../../assets/ejemplo21.png)
+![Cuandro Comparativo](../../../../assets/ejemplo21.jpg)
 
-![Cuandro Comparativo](../../../../assets/ejemplo22.png)
+![Cuandro Comparativo](../../../../assets/ejemplo22.jpg)
 
 **Potencial:**
 
