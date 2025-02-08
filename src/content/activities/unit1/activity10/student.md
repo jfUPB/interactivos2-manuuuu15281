@@ -13,7 +13,8 @@
 
 2. Luego añadí la malla interactiva, para esta seguí el código que me dió la IA anteriormente pero no sabía como dejar una malla estática y que la otra fuera interactiva (Luego entendí cómo hacerlo con ayuda de la IA) y por último le dije a la IA que quería que las bolitas interactuaran con el mouse cuando este pasara por encima de ellas y modificaran su posición, no sabía cómo lograr el efecto de movimiento original entonces me quedé con el que la IA me dió. 
 
-3. La reconstrucción se basa en el proyecto original pero no logré una completa igualdad y de cierta manera fue a propósito ya que experimentando llegué a mi propio sketch que genera un efecto visual que me gusta más que el original y quería dejar la malla dinámica de color rosita. 
+3. La reconstrucción se basa en el proyecto original pero no logré una completa igualdad y de cierta manera fue a propósito ya que experimentando llegué a mi propio sketch que genera un efecto visual que me gusta más que el original y quería dejar la malla dinámica de color rosita.
+   
 [Enlace al proyecto a reconstrucción](https://editor.p5js.org/manuuuu15281/sketches/_BKpfSKpi)
 
 ![Cuandro Comparativo](../../../../assets/ejemplo28.png)
