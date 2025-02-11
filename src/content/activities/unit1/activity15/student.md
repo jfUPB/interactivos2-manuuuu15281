@@ -12,6 +12,8 @@ muchas experiencias que se podrían crear en tiempo real podrían depender de la
 
 ### HERRAMIENTAS Y TÉCNICAS
 
-Las herramientas  que podemos usar para  mi proyecto final puede ser p5.js, Three o cables  
+Las herramientas  que podemos usar para  mi proyecto final podrían ser p5.js, Three o cables completandose con el uso de micro:bit, arduinos o controladores MIDI. En cuanto a las técnicas, podria trabajar con sistemas  basados en reglas o algoritmos generativos, el análisis de datos en tiempo real o trabajar con WebSockets y Node.js para sincronizar varios dispositivos en tiempo real. 
 
+### LIMITACIONES
 
+Hasta el momoento mi única gran limitación ha sido el poco conocimiento de java, ya que dependo de la IA para poder escribir bastantes partes del  código y me gustaría que no fuera así. 
