@@ -16,7 +16,14 @@ Las interacciones que se pueden dar en los partidos de futbol son público con j
 
 Dentro de los otros factores que influyen en el evento podrían ser las redes sociales que sirven para interactuar con el público fuera del estadio, ampliando la participación de los hinchas de manera global. Así mismo como las transmiciones en vivo del partido desde los canales de televisión. 
 
-### EVENTO 3: Exposición de obras en un museo
+### EVENTO 3: Obra de teatro
+El público que suele ir a este tipo de eventos se caracteriza por ser entre activo y pasivo, se dedican a observar y tener reacciones a lo que sucede durante el desarrollo de la historia. 
+
+Las interacciones que puedes ver en este tipo de eventos es entre el público y los actores, donde el público puede interactuar verbalmente y aportar a la narrativa. También está la interacción entre público y público, donde se comparten entre ellos las perspectivas e interpretaciones de las obras. 
+
+Otros actores que se tienen en cuenta en estos eventos son los sistemas de iluminación y sonido del montaje, pueden generar emociones y sensaciones en los asistentes.
+
+
 
 
 
