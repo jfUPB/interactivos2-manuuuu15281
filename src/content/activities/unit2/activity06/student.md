@@ -17,6 +17,7 @@ También se puede implementar el ranking en vivo en la pantalla LED mostrando qu
 - Sistema de registro de tiempos de reacción de los asistentes.
 - Tecnología de sincronización RF o Bluetooth para controlar las pulseras en tiempo real.
 - Sensores de sonido y vibración para simular el motor de los monoplazas.
+- 
 ### PROCESAMIENTO
 1. El sistema detecta la presión sobre el sensor en el momento en que el semáforo cambia de rojo a verde, se mide el tiempo de reacción de cada participante y se compara con los tiempos promedio de los pilotos de F1, los datos se envían a la pantalla LED principal y al ranking en vivo. Los mejores tiempos quedan registrados y al final se anuncian los ganadores.
 
@@ -30,5 +31,24 @@ También se puede implementar el ranking en vivo en la pantalla LED mostrando qu
 ### STORYTELLING
 Los usuarios ponen a prueba su capacidad para reaccionar en el simulador de salida, solo los más rápidos podrán competir con los tiempos de reacción de los mejores pilotos del mundo. Al mismo tiempo sienten la F1 como nunca antes. Con las pulseras LED hápticas, no solo veran la presentación, sino que la viviran en cada vibración y cada luz.
 
+![Cuandro Comparativo](../../../../assets/ejemplo33.jpg)
+
 EVENTO 2: Desfile de Modas
 -
+### PROPUESTA DEL EVENTO 
+Un desfile donde los asistentes diseñan sin saberlo los atuendos que luego verán en pasarela. Cada invitado recibe un iPad al ingresar y tiene unos minutos para dibujar lo que quiera: formas, líneas, garabatos o incluso escribir palabras (No saben cómo se usará su dibujo, solo que será parte del desfile). El giro inesperado es que una IA generativa reorganiza, mezcla y transforma todos los dibujos en prints únicos para los atuendos de los modelos.Cuando empieza el desfile, los asistentes ven con sorpresa cómo sus trazos abstractos se convirtieron en diseños reales en las prendas. Al final del desfile cada invitado puede ir a ver de cerca la pieza que se creó con su dibujo.
+
+### INPUTS
+- Cada invitado recibe una tableta al ingresar y tiene 5 minutos para dibujar lo que desee: trazos, palabras, figuras abstractas.
+- No se les da información sobre cómo se usará, solo que será parte del desfile.
+- Nombre o iniciales del invitado.
+- Vestuarios blancos simulando lienzos.
+  
+### PROCESAMIENTO
+Recepción y almacenamiento de los dibujos, se guardan en una base de datos con un identificador único por usuario. La IA mezcla y reorganiza los trazos generando prints únicos para los atuendos y se aplican estilos artísticos o temáticos según la estética del desfile (como el glitch en la exp de Diesel) y finalmente se implementa la impresión digital sobre tela y se vinculan los diseños con los nombres o iniciales de los asistentes y se proyectan en las pantallas a medida que el desfile va ocurriendo. 
+
+### OUTPUTS
+Los modelos presentan los outfits con los prints generados por la IA y el usuario se sorprende por ver su nombre en la gran pantalla refiriendose a él como "Co-diseñador" y ver pasar su diseño de hace unos minutos reflejado en una prenda. Al finalizar el desfile, cada asistente puede acercarse a la prenda que contiene su diseño y decidir si comprarla o descargar su diseño y compartirlo en redes sociales. 
+
+### STORYTELLING
+Esta propuesta reinventa el concepto de desfile de moda, pasando de un show pasivo a una experiencia interactiva, emocional y colaborativa. Los asistentes se convierten en co-creadores sin saberlo, y el momento de la revelación genera un impacto inolvidable
