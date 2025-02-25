@@ -51,4 +51,27 @@ Recepción y almacenamiento de los dibujos, se guardan en una base de datos con 
 Los modelos presentan los outfits con los prints generados por la IA y el usuario se sorprende por ver su nombre en la gran pantalla refiriendose a él como "Co-diseñador" y ver pasar su diseño de hace unos minutos reflejado en una prenda. Al finalizar el desfile, cada asistente puede acercarse a la prenda que contiene su diseño y decidir si comprarla o descargar su diseño y compartirlo en redes sociales. 
 
 ### STORYTELLING
-Esta propuesta reinventa el concepto de desfile de moda, pasando de un show pasivo a una experiencia interactiva, emocional y colaborativa. Los asistentes se convierten en co-creadores sin saberlo, y el momento de la revelación genera un impacto inolvidable
+Esta propuesta reinventa el concepto de desfile de moda, pasando de un show pasivo a una experiencia interactiva, emocional y colaborativa. Los asistentes se convierten en co-creadores sin saberlo, y el momento de la revelación genera un impacto inolvidable. 
+
+EVENTO 3: Juegos Olimpicos Los Ángeles 2028
+-
+### PROPUESTA PARA EL EVENTO
+Durante los Juegos Olímpicos de Los Ángeles 2028, el público podrá explorar las posibles sedes para 2036 y votar en tiempo real por su favorita escaneando un código QR.En distintos puntos de las sedes olímpicas donde los asistentes al escanear un QR acceden a una experiencia digital inmersiva con información detallada de cada ciudad candidata como videos promocionales, visualizaciones 3D de estadios y sedes y finalmente los argumentos de cada ciudad por los que deberian ser elegidas. 
+
+### INPUTS
+- Escaneo de un Código QR en diferentes sedes olímpicas.
+- Exploración de contenido multimedia sobre cada ciudad candidata (videos, modelos 3D, planes de infraestructura).
+- Voto digital mediante una interfaz amigable.
+  
+### PROCESAMIENTO
+Primero los usuarios escanean los QR desde los estadios o sedes olimpicas, luego entran a explorar los diferentes escenarios y ciudades participantes y votan por la que más les guste. Después se da el resultado en la ceremonia de clausura.  
+
+### OUTPUTS
+- Visualización interactiva de los estadios y sedes de cada ciudad en su móvil o tablets disponibles en los stands.
+- NFT coleccionable exclusivo de Los Ángeles 2028 como recompensa por participar.
+- Posibilidad de ganar premios (merchandising, acceso VIP, sorteos de viajes a la sede ganadora).
+
+### STORYTELLING
+
+La propuesta de votación interactiva para la sede de los Juegos Olímpicos 2036 transforma a los asistentes de Los Ángeles 2028 en participantes activos del futuro del evento. A través del uso de tecnología inmersiva, como códigos QR, modelos 3D, votaciones en tiempo real y recompensas digitales, se crea una experiencia innovadora que no solo informa, sino que también emociona.
+
