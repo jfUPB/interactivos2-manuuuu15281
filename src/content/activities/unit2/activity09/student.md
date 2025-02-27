@@ -12,4 +12,5 @@ Durante la unidad lo que más me costó entender y hacer era el storytelling, no
 Áreas de mejora   ¿Qué aspectos necesitas mejorar o profundizar?
 -
 Creo que debo seguir trabajando en el desarrollo de narrativas que aporten más vida y contexto a la experiencia. Para mi es cuestión de creatividad e innovación :)
-También considero que es necesa
+
+También considero que es necesario nutrirme de más contenido del medio, que es lo que está pasando actualmente con las experiencias interactivas y el mundo. Debo estar actualizandome y poder conocer cosas nuevas que me puedan servir para mis proyectos educativos. 
