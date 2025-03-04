@@ -4,4 +4,4 @@ Considero que es una experiencia que genera mucha curiosidad frente a lo que pro
 
 ...en Medellín
 -
-Para medellín me parece una nota incorporar este tipo de eventos y por la gran oportunidad que tienen dentro de la ciudad, recordemos que Medellín es una ciudad en progreso tecnológico y tiene grandes artistas en desarollo. Además la movida artistica y cultural de la ciudad fomenta las experiencias sonoras y esto es atractivo tanto para turistas como para locales
+Para medellín me parece una nota incorporar este tipo de eventos por la gran oportunidad que tienen dentro de la ciudad, recordemos que Medellín es una ciudad en progreso tecnológico y tiene grandes artistas en desarollo. Además la movida artistica y cultural de la ciudad fomenta las experiencias sonoras y esto es atractivo tanto para turistas como para locales. 
