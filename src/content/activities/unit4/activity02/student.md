@@ -6,4 +6,11 @@ Después de ver el video del repositorio, entendí que p5LiveMedia es una extens
 
 **¿Qué posibilidades ofrece p5LiveMedia?**
 
-Esta biblioteca permite capturar video en tiempo real desde la camara del computador e incorporarlo en un canvas de p5.js, también permite capturar audio y manipular los datos del sonido para generar visualizaciones si así lo queremos. La sincronización de varios medios en tiempo real como audio y video es otra de las posibilidades que ofrece la libreria, finalmente sirve como soporte WebRTC y WebSocket permitiendo la conexión entre servidores y navegadores facilitando la transmición en vivo  
+Esta biblioteca permite capturar video en tiempo real desde la camara del computador e incorporarlo en un canvas de p5.js, también permite capturar audio y manipular los datos del sonido para generar visualizaciones si así lo queremos. La sincronización de varios medios en tiempo real como audio y video es otra de las posibilidades que ofrece la libreria, finalmente sirve como soporte WebRTC y WebSocket permitiendo la conexión entre servidores y navegadores facilitando la transmición en vivo.
+
+**Ejemplos analizados**
+
+https://editor.p5js.org/shawn/sketches/jZQ64AMJc
+
+https://editor.p5js.org/shawn/sketches/e4LTqKI8Q
+
