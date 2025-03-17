@@ -1,4 +1,4 @@
-p5LiveAction
+p5LiveMedia
 -
 **¿Qué es p5LiveMedia?**
 
