@@ -1,0 +1,1 @@
+Escribe un texto donde explique este referente y esta visión del arte generativo de Ben Heim ¿Cómo se relaciona con tu proyecto de curso? ¿Qué aspectos te llaman la atención? ¿Qué aspectos te gustaría explorar en tu proyecto de curso?
