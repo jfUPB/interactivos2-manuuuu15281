@@ -1,4 +1,4 @@
 DISEÑO PRELIMINAR
 -
 
-La misión principal de mi experiencia es motivar a los corredores y agrandar la comunidad del running por medio de la interactividad que propone esta experiencia y la narrativa que la envuelve. 
+La misión principal de mi experiencia es motivar a los corredores y agrandar la comunidad del running por medio de la interactividad que propone esta experiencia y la narrativa que la envuelve. Antes de la carrera quiero que los usuarios tengan contexto de cada animal y lo que representa, además es importante que los corredores antes de salir a correr ya estén vinculados con sus celulares o relojes inteligentes para poder proyectar sus flyers de manera aleatoria en las pantallas. Durante la experiencia el fondo del los flyers como el animal estará cambiando según el pacer que vaya creando el corredor, y estarán todo conectados a un gran sistema que permitirá visibilizar flyers aleatorios, además se irá promediando la info que se reciba de los dispositivos (el pace) para el flyer final...
