@@ -1,0 +1,1 @@
+Me parece que la unidad está muy balanceada y cumple su objetivo, al mismo tiempo considero que se podría sar diagramas de flujo o mapas conceptuales para organizar la relación entre datos, narrativa y experiencia del usuario antes de entrar en lo técnico.
