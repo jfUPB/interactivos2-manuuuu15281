@@ -11,4 +11,4 @@ IPO
 Los datos de entrada que permitirán los visuales son la velocidad a la que va corriendo el corredor y su pace final. Estos son los que le indicarán al algoritmo como debe modificar el flyer temporal de cada atleta mientras está en la carrera y como debe generar el flyer final del corredor con su respectivo pace. 
 
 **PROCESS**
-Luego de recibir los datos de cada corredor
+Luego de recibir los datos de cada corredor, el programa que estará dado por parámetros 
