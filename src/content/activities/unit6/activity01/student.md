@@ -17,3 +17,10 @@ Luego de recibir los datos del corredor, el programa (que estará parametrizado)
 **OUTPUT**
 
 Habrá un visual (pantalla del compu en este caso) donde se mostrará el fondo cambiando en tiempo real según los datos que reciba. Por último, el Pace promediado se mostrará al final de la carrera también en un flyer que mostrará la info completa de su carrera (pace final, tiempo, distancia y el animal dominante)
+
+**Storytelling**
+
+¿Estás preparado para desatar tu espíritu animal?
+
+Únete a esta experiencia y corre 
+
