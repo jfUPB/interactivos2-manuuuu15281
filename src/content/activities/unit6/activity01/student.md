@@ -22,5 +22,6 @@ Habrá un visual (pantalla del compu en este caso) donde se mostrará el fondo c
 
 ¿Estás preparado para desatar tu espíritu animal?
 
-Únete a esta experiencia y corre 
+Únete a esta experiencia y transforma tu esfuerzo en una obra visual en tiempo real. A medida que corres, tu velocidad pinta una barra de color vibrante que reacciona con cada cambio en tu paso. No corres solo para llegar: corres para crear.
+
 
