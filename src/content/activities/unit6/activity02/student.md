@@ -21,12 +21,15 @@ Pdt: Es importante aclarar que aún no se si me sirva de la manera en que lo ten
 
 Por último, quise experimentar en cómo hacer los visuales con p5.js y funcionó pero en esta  parte simulé dentro del mismo código las velocidades (solo para ver como se movía el fondo y si era fluido, era más para ver la parte del diseño), logré que se viera fluido y dentro de los rangos de colores que establecí desde la unidad pasada para las distintas velocidades. 
 
-[CLIC AQUÍ PARA VER CÓMO SE VERÁN EL FONDO DE LOS VISUALES CON EL CÓDIGO DE p5.js](https://editor.p5js.org/manuuuu15281/sketches/7yMoI1-Tl)
+![Cuandro Comparativo](../../../../assets/ejemplo36.png)
 
+[CLIC AQUÍ PARA VER CÓMO SE VERÁN EL FONDO DE LOS VISUALES CON EL CÓDIGO DE p5.js](https://editor.p5js.org/manuuuu15281/sketches/7yMoI1-Tl)
 
 Un tercer input proviene de un dispositivo móvil, que cumple la función de panel de control remoto para el administrador de la carrera. Desde allí, se puede seleccionar el modo de ambientación visual según la ciudad donde se realice la carrera. El tipo de dato será texto (etiqueta de ciudad) y su el formato será un String. Ejemplos: "cartagena", "bogota", "medellin", "pasto", "quindio".
 
 Esto lo voy a simular a través de una interfaz con botones (radio buttons o menú desplegable) desde una aplicación en p5.js. Su importancia dentro de la experiencia es que define el estilo visual y decorativo de los elementos culturales. Por ejemplo, si se elige “Cartagena”, los animales que aparecen en pantalla pueden estar adornados con accesorios playeros, mientras que en “Bogotá” tendrían indumentaria andina o urbana. Este parámetro también actúa como un filtro que modifica el carácter de la visualización general.
+
+
 
 
 
