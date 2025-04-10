@@ -4,6 +4,7 @@ INPUTS DETALLADOS
 **1. Simulación del recorrido  del corredor (GPS Simulator)**
 
 Para simular la ruta de un corredor en tiempo real, utilizamos un simulador de GPS que genera un archivo con coordenadas geográficas en formato NMEA. Este formato lo usaremos en un código en p5.js que sacará  las velocidades en determinado tramo **(para mi demo decidí que será de 1km)** de un corredor con ritmo promedio de 6:30 min/km que recorre 2.5 m/s (estas son las especificaciones con las que configuré el GPS simulator para verificar que si funcionara y efectivamente si sirvió. La ruta es generada artificialmente usando una herramienta de simulación GPS. Esta herramienta permite trazar un trayecto (por ejemplo, 1 metro de distancia) y descargar un archivo de datos simulados que emulan el movimiento de un corredor. 
+
 Para ver más o menos cómo hacerlo, tracé una ruta de 1km más o menos y configuré el programa como si fuera un corredor que hace 2,5 m/s: 
 
 
