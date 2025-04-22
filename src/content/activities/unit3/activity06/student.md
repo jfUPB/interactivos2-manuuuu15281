@@ -1,5 +1,11 @@
 muestra el código de la aplicación: servidor y clientes. Explica claramente:
 
+El sistema se ve la siguiente manera: 
+
+**Cliente 1 en el lado izquierdo y cliente 2 en el lado derecho:**
+
+![Cuandro Comparativo](../../../../assets/ejemplo37.png)
+
 **Mi código de Sketch.js (Cliente):**
 
 ```
@@ -219,13 +225,79 @@ server.listen(PORT, () => {
 **¿Cómo se comunican los clientes con el servidor?**
 
 La comunicación entre los clientes y el servidor se realiza mediante WebSockets.
+
 El cliente establece una conexión WebSocket con el servidor al cargar la página web (socket = new WebSocket(ws://${window.location.host});)
+
 Una vez establecida la conexión, tanto el cliente como el servidor pueden enviar mensajes en cualquier momento sin necesidad de iniciar nuevas solicitudes HTTP.
 
+**¿Cómo se comunican los clientes entre sí?**
 
-¿Cómo se comunican los clientes entre sí?
-¿Qué tipo de mensajes se envían?
-¿Qué tipo de datos se envían?
-¿Qué tipo de eventos se generan?
-¿Cómo es el flujo de datos entre los clientes y el servidor?
-¿Cómo es el flujo de datos entre los clientes?
+En este caso los clientes no se comunican entre sí, sino que funciona de la siguiente manera: 
+1. Un cliente (A) envía una imagen al servidor.
+2. El servidor recibe el mensaje y lo reenvía a todos los demás clientes conectados (excepto al cliente A).
+3. Los otros clientes reciben el mensaje reenviado por el servidor.
+
+Investigué un poco acerca de esta manera de comunicación y resulta que este modelo se conoce como "broadcasting" centralizado, donde el servidor actúa como intermediario para todos los mensajes.
+
+**¿Qué tipo de mensajes se envían?**
+
+En este caso los mensajes que se envian son solamente imágenes, qué pueden ser tomadas en el momento o seleccionadas desde el dispositivo del usuario.
+
+**¿Qué tipo de datos se envían?**
+
+Para esta pregunta me asesoré de la IA ya que no tenía muy claro en que formato se estaban enviando los datos y esto me explicó: 
+
+Los datos se envían en formato binario de la siguiente manera: 
+
+- Las imágenes se convierten a objetos Blob antes de ser enviadas
+- En el caso de fotos de la cámara: se captura la imagen del video, se dibuja en un canvas y se convierte a Blob con compresión JPEG
+- Para imágenes subidas: se lee el archivo como ArrayBuffer y se convierte a Blob manteniendo su tipo MIME original
+- El servidor recibe estos Blobs y los reenvía tal cual a los demás clientes
+- Los clientes receptores utilizan FileReader para convertir los Blobs recibidos a URLs de datos (data URLs)
+
+**¿Qué tipo de eventos se generan?**
+
+En este caso se manejan varios tipos de eventos:
+
+**En el servidor:**
+
+connection: Cuando un nuevo cliente se conecta
+message: Cuando se recibe un mensaje (imagen) de un cliente
+error: Cuando ocurre un error en la conexión WebSocket
+close: Cuando un cliente se desconecta
+
+**En el cliente:**
+
+onopen: Cuando se establece la conexión con el servidor
+onmessage: Cuando se recibe un mensaje (imagen) del servidor
+onerror: Cuando ocurre un error en la conexión
+Eventos UI: clicks en botones para tomar fotos o seleccionar archivos
+Eventos de procesamiento de archivos: cuando se carga una imagen seleccionada
+
+**¿Cómo es el flujo de datos entre los clientes y el servidor?**
+
+**Cliente hacia servidor:**
+
+El cliente captura una foto o selecciona una imagen
+La imagen se procesa y convierte a Blob
+El Blob se envía al servidor a través de la conexión WebSocket (socket.send(blob))
+El servidor recibe el mensaje binario (Blob)
+
+**Servidor hacia clientes:**
+
+El servidor identifica al remitente del mensaje
+El servidor reenvía el mensaje (Blob) a todos los demás clientes conectados
+Cada cliente recibe el mensaje a través del evento onmessage
+
+**¿Cómo es el flujo de datos entre los clientes?**
+
+Como mencioné anteriormente, no hay comunicación directa entre clientes. El flujo completo entre dos clientes sería:
+
+1. Cliente A toma o selecciona una imagen.
+2. Cliente A procesa la imagen y la convierte a Blob.
+3. Cliente A envía el Blob al servidor.
+4. El servidor recibe el Blob de Cliente A.
+5. El servidor reenvía el Blob a todos los demás clientes (incluido Cliente B).
+6. Cliente B recibe el Blob.
+7. Cliente B procesa el Blob: lo lee con FileReader, lo convierte a data URL.
+8. Cliente B carga la imagen con p5.js y la muestra en su galería.
