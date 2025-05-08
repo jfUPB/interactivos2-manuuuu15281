@@ -17,7 +17,9 @@ Mi mayor desafio fue poder convertir los datos NMEA a las velocidades, y no prec
 
 **¿Qué habilidad o concepto técnico específico (de p5.js, JS, Node, depuración, etc.) sientes que fortaleciste más en esta unidad?**
 
-Defi
+Definitivamente lo que mejor entendí fue la creación de un servidor desde 0, comprendí que estructura debe tener para funcionar y cómo se debe de ejecutar. También comprendí la importancia de cada archivo :)
 
 
 **¿Qué tan cómodo y confiado te sientes ahora con el código que has escrito para este proyecto? ¿Hay partes que todavía te resultan confusas?**
+
+Lo entiendo muy bien, al mismo tiempo hay funciones de la lógica (convertir los datos NMEA a velocidad) que no comprendo muy bien el proceso de conversión pero de resto tengo claridad de como se comunican los códigos, como se envian los datos y como intervienen en los visuales.
