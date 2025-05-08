@@ -12,10 +12,12 @@ Mi producto funciona como se planteó en las unidades pasadas, el método IPO qu
 
 **¿Cuál fue el mayor desafío técnico que enfrentaste durante la implementación (codificar una lógica específica, depurar un error difícil, configurar la comunicación, etc.)? ¿Cómo lo superaste?**
 
-Mi mayor desafio fue poder convertir los datos NMEA 
+Mi mayor desafio fue poder convertir los datos NMEA a las velocidades, y no precisamente por la lógica para hacerlo sino por la gran cantidad de datos que brinda el simulador en el archivo .NMEA y lo hacia ser muy  pesado y dificil de procesar por la IA. 
 
 
 **¿Qué habilidad o concepto técnico específico (de p5.js, JS, Node, depuración, etc.) sientes que fortaleciste más en esta unidad?**
+
+Defi
 
 
 **¿Qué tan cómodo y confiado te sientes ahora con el código que has escrito para este proyecto? ¿Hay partes que todavía te resultan confusas?**
