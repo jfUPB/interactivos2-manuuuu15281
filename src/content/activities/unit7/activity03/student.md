@@ -105,8 +105,8 @@ function draw() {
 ![image](https://github.com/user-attachments/assets/205a7f02-319c-49ea-b0f5-3c2d05073dac)
 
 
-Cuando se inicia la aplicación, el archivo sketch.js (cliente) establece una conexión con el servidor utilizando Socket.IO mediante la instrucción socket = io();. Una vez conectado, el cliente escucha varios eventos que el servidor puede emitir. Al conectarse, el servidor (server.js) imprime un mensaje de confirmación y le envía al cliente el modo actual de visualización (medellin o bogota) mediante el evento mode_change.
+Cuando se inicia la aplicación, el archivo sketch.js (cliente) establece una conexión con el servidor utilizando Socket.IO mediante la instrucción socket = io();. Al conectarse, el servidor (server.js) imprime un mensaje de confirmación y le envía al cliente el modo actual de visualización (medellin o bogota) mediante el evento mode_change.
 
-Luego, el servidor comienza a emitir cada 2 segundos datos de ritmo (pace) y velocidad (velocity) extraídos de sentencias NMEA simuladas. Estos datos se envían mediante el evento pace_update, que el cliente recibe y utiliza para actualizar variables internas (targetPace, currentVelocity) que afectan la visualización gráfica en pantalla. El cliente representa visualmente el ritmo con un color de fondo y una imagen de animal, ambos determinados por el valor del pace y del modo actual.
+Luego, el servidor comienza a emitir cada 2 segundos datos de ritmo (pace) y velocidad (velocity) extraídos del archivo NMEA simulado. Estos datos se envían mediante el evento pace_update, que el cliente recibe y utiliza para actualizar variables internas (targetPace, currentVelocity) que afectan la visualización gráfica en pantalla. El cliente representa visualmente el ritmo con un color de fondo y una imagen de animal, ambos determinados por el valor de la velocidad y del modo actual.
 
 Además, cada vez que el servidor cambia el modo de visualización (por ejemplo, de Medellín a Bogotá), emite un evento mode_change, que el cliente escucha para ajustar las imágenes de animales correspondientes a ese modo
