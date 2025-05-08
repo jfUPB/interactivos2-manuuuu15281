@@ -10,6 +10,4 @@ Y me di cuenta que el código seguía funcionando normalmente (pero se movía de
 
 Para lo que decidí cambiar esto y simplemente mostrar un mensaje de "No hay movimiento" o "Estás quiet@" para entender de que no se está moviendo y no hay velocidad por calcular. 
 
-(pendiente por colocar el resultado del cambio)
-
 ![image](https://github.com/user-attachments/assets/b40dc10a-48ea-4c4e-8ef4-e092fda59c77)
