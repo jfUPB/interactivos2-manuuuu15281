@@ -36,14 +36,14 @@ El sistema comienza leyendo un archivo que contiene una serie de ubicaciones sim
 
 Una vez calculada la velocidad, esta se convierte en un valor que se usa para elegir un color dentro de una barra de colores. Ese color representa cómo está corriendo la persona en ese momento. Finalmente, ese color aparece en una parte visual del proyecto: un cuadro o “flyer” que cambia en tiempo real y sirve como indicador visual del ritmo actual del corredor.
 
+![image](https://github.com/user-attachments/assets/514c5824-9a8e-4805-8c42-ce3fb6fe6d8d)
+
 
 **Output (Salida):** El resultado visible o sensorial que se genera: visuales en tiempo real y una ambientación adaptada al contexto cultural.
 
 En esta parte se generan los visuales con ayuda de las velocidades que se calcularon, los colores y el animal cambian en función de ellas. Además, los objetos o frases que lleven las imagenes de los animales cambian en función del control remoto. 
 
-
-
-**Para generar los datos NMEA con el simulador (son los datos que te van a dar las velocidades) mira el DEMO, ahí explico cómo usar la página del simulador**
+![image](https://github.com/user-attachments/assets/411e5772-8d53-4781-9c6e-cf09a995eadb)
 
 **TECNOLOGIAS**
 
@@ -51,14 +51,11 @@ Las tecnologias usadas para este primer prototipo fueron:
 1. El simulador de datos de movimiento
 2. WebSockets para establecer conexiones.
 3. Códigos en p5.js para experimentar
-
-
-
-
-
-
-
-
+   
+DEMO DEL PROTOTIPO
+-
+El video: 
+[VER DEMO](https://youtu.be/MVcaoeyBOmU)
 
 TUTORIAL PARA EJECUTAR EL PROTOTIPO
 -
@@ -127,6 +124,9 @@ El animal mostrado cambia según la velocidad (de más rápido a más lento):
 - Tortuga (morado) - menores velocidades 
 
 La línea vertical en la barra inferior indica la velocidad actual en la escala de colores y la velocidad se muestra en metros por segundo.
+
+
+**Para generar los datos NMEA con el simulador (son los datos que te van a dar las velocidades) mira el DEMO, ahí explico cómo usar la página del simulador**
 
 
 
