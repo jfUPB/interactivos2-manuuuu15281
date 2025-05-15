@@ -1,0 +1,5 @@
+Proyecto del curso: El diseño de una experiencia interactiva generativa en tiempo real
+-
+El método input/output es funadamental para diseñar experiencias interactivas generativas en tiempo real porque define como los usuarios interactúan con el sistema y este como responde a esas interacciones dando como resultado productos originales y muy personalizados. Con esta unidad logré evidenciar esto con el análisis de cada proyecto propuesto por el profe, segmentar la experiencia con este método y analizar cada etapa sirve para entender cómo viven el sistema los usuarios y que sensaciones se llevan consigo.
+
+En este tipo de experiencias, la relación entre inputs, procesamiento y outputs debe ser fluida y en tiempo real para que la interacción se sienta mucho más inmersiva. Un ejemplo de esto es el proyecto de Diesel, donde usaron el sonido del ambiente y el movimiento de las personas como patrón para generar visuales, todo esto fue en tiempo real y surgió durante el momento de interacción siendo mucho más organico.  
